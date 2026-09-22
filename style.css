@@ -1,0 +1,47 @@
+.logo {
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  
+  padding: 15px 30px;
+  margin :0px;
+  border-bottom: 5px solid black;
+}
+
+.logo h1{
+    margin:0;
+}
+
+.nav {
+   display: flex;
+   gap: 25px;
+   align-items: center;
+   margin-left: auto;
+   
+}
+
+.nav a{
+    text-decoration:none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cursive;
+}
+
+.cart1{
+  margin-left: 145px;
+  padding: 10px 18px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+}
